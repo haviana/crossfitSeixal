@@ -33,31 +33,31 @@ class __TwigTemplate_22cf82ee1b8f27ed53e1c09df27f23fcd6afa4d5b77afa2f0ff8fbf0245
         ";
         // line 4
         $this->displayBlock('head', $context, $blocks);
-        // line 42
+        // line 45
         echo "    </head>
     <body>
         ";
-        // line 44
-        $this->displayBlock('navigation', $context, $blocks);
         // line 47
+        $this->displayBlock('navigation', $context, $blocks);
+        // line 50
         echo "
         ";
-        // line 48
-        $this->displayBlock('header', $context, $blocks);
         // line 51
+        $this->displayBlock('header', $context, $blocks);
+        // line 54
         echo "
         ";
-        // line 52
-        $this->displayBlock('body', $context, $blocks);
         // line 55
+        $this->displayBlock('body', $context, $blocks);
+        // line 58
         echo "
         ";
-        // line 56
-        $this->displayBlock('footer', $context, $blocks);
         // line 59
+        $this->displayBlock('footer', $context, $blocks);
+        // line 62
         echo "
         <script src=\"";
-        // line 60
+        // line 63
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://js/landio.min.js");
         echo "\" type=\"text/javascript\" ></script>
     </body>
@@ -135,38 +135,41 @@ class __TwigTemplate_22cf82ee1b8f27ed53e1c09df27f23fcd6afa4d5b77afa2f0ff8fbf0245
         // line 21
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://img/favicon/favicon-16x16.png");
         echo "\" sizes=\"16x16\">
+        <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.2.0/css/all.css\" integrity=\"sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ\" crossorigin=\"anonymous\">
+
+
         <link rel=\"manifest\"href=\"";
-        // line 22
+        // line 25
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://img/favicon/manifest.json");
         echo "\" />
         <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 23
+        // line 26
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://img/favicon/favicon.ico");
         echo "\" />
 
         <meta name=\"msapplication-TileColor\" content=\"#663fb5\">
         <meta name=\"msapplication-TileImage\" content=\"";
-        // line 26
+        // line 29
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://img/favicon/mstile-144x144.png");
         echo "\">
         <meta name=\"msapplication-config\" content=\"";
-        // line 27
+        // line 30
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://img/favicon/browserconfig.xml");
         echo "\">
         <meta name=\"theme-color\" content=\"#663fb5\">
 
         ";
-        // line 30
+        // line 33
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 34
+        // line 37
         echo "        ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", array(), "method");
         echo "
 
         ";
-        // line 36
-        $this->displayBlock('javascripts', $context, $blocks);
         // line 39
+        $this->displayBlock('javascripts', $context, $blocks);
+        // line 42
         echo "        ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
@@ -174,71 +177,71 @@ class __TwigTemplate_22cf82ee1b8f27ed53e1c09df27f23fcd6afa4d5b77afa2f0ff8fbf0245
         ";
     }
 
-    // line 30
+    // line 33
     public function block_stylesheets($context, array $blocks = array())
     {
-        // line 31
+        // line 34
         echo "            ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/animate.min.css"), "method");
-        // line 32
+        // line 35
         echo "            ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", array(0 => "theme://css/landio.css"), "method");
-        // line 33
+        // line 36
         echo "        ";
     }
 
-    // line 36
+    // line 39
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 37
+        // line 40
         echo "            ";
         $this->getAttribute(($context["assets"] ?? null), "add", array(0 => "jquery", 1 => 101), "method");
-        // line 38
+        // line 41
         echo "        ";
     }
 
-    // line 44
+    // line 47
     public function block_navigation($context, array $blocks = array())
     {
-        // line 45
+        // line 48
         echo "            ";
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 45)->display($context);
-        // line 46
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 48)->display($context);
+        // line 49
         echo "        ";
     }
 
-    // line 48
+    // line 51
     public function block_header($context, array $blocks = array())
     {
-        // line 49
+        // line 52
         echo "             ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 49)->display($context);
-        // line 50
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 52)->display($context);
+        // line 53
         echo "        ";
     }
 
-    // line 52
+    // line 55
     public function block_body($context, array $blocks = array())
     {
-        // line 53
+        // line 56
         echo "            ";
         $this->displayBlock('content', $context, $blocks);
-        // line 54
+        // line 57
         echo "        ";
     }
 
-    // line 53
+    // line 56
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 56
+    // line 59
     public function block_footer($context, array $blocks = array())
     {
-        // line 57
+        // line 60
         echo "             ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 57)->display($context);
-        // line 58
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 60)->display($context);
+        // line 61
         echo "        ";
     }
 
@@ -254,7 +257,7 @@ class __TwigTemplate_22cf82ee1b8f27ed53e1c09df27f23fcd6afa4d5b77afa2f0ff8fbf0245
 
     public function getDebugInfo()
     {
-        return array (  242 => 58,  239 => 57,  236 => 56,  231 => 53,  227 => 54,  224 => 53,  221 => 52,  217 => 50,  214 => 49,  211 => 48,  207 => 46,  204 => 45,  201 => 44,  197 => 38,  194 => 37,  191 => 36,  187 => 33,  184 => 32,  181 => 31,  178 => 30,  170 => 39,  168 => 36,  162 => 34,  160 => 30,  154 => 27,  150 => 26,  144 => 23,  140 => 22,  136 => 21,  132 => 20,  128 => 19,  124 => 18,  120 => 17,  116 => 16,  112 => 15,  108 => 14,  104 => 13,  100 => 12,  96 => 11,  92 => 10,  88 => 9,  85 => 8,  83 => 7,  75 => 6,  72 => 5,  69 => 4,  61 => 60,  58 => 59,  56 => 56,  53 => 55,  51 => 52,  48 => 51,  46 => 48,  43 => 47,  41 => 44,  37 => 42,  35 => 4,  30 => 2,  27 => 1,);
+        return array (  245 => 61,  242 => 60,  239 => 59,  234 => 56,  230 => 57,  227 => 56,  224 => 55,  220 => 53,  217 => 52,  214 => 51,  210 => 49,  207 => 48,  204 => 47,  200 => 41,  197 => 40,  194 => 39,  190 => 36,  187 => 35,  184 => 34,  181 => 33,  173 => 42,  171 => 39,  165 => 37,  163 => 33,  157 => 30,  153 => 29,  147 => 26,  143 => 25,  136 => 21,  132 => 20,  128 => 19,  124 => 18,  120 => 17,  116 => 16,  112 => 15,  108 => 14,  104 => 13,  100 => 12,  96 => 11,  92 => 10,  88 => 9,  85 => 8,  83 => 7,  75 => 6,  72 => 5,  69 => 4,  61 => 63,  58 => 62,  56 => 59,  53 => 58,  51 => 55,  48 => 54,  46 => 51,  43 => 50,  41 => 47,  37 => 45,  35 => 4,  30 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -288,6 +291,9 @@ class __TwigTemplate_22cf82ee1b8f27ed53e1c09df27f23fcd6afa4d5b77afa2f0ff8fbf0245
         <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://img/favicon/android-chrome-192x192.png') }}\" sizes=\"192x192\">
         <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://img/favicon/favicon-96x96.png') }}\" sizes=\"96x96\">
         <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://img/favicon/favicon-16x16.png') }}\" sizes=\"16x16\">
+        <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.2.0/css/all.css\" integrity=\"sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ\" crossorigin=\"anonymous\">
+
+
         <link rel=\"manifest\"href=\"{{ url('theme://img/favicon/manifest.json') }}\" />
         <link rel=\"icon\" type=\"image/png\" href=\"{{ url('theme://img/favicon/favicon.ico') }}\" />
 
@@ -329,6 +335,6 @@ class __TwigTemplate_22cf82ee1b8f27ed53e1c09df27f23fcd6afa4d5b77afa2f0ff8fbf0245
         <script src=\"{{ url('theme://js/landio.min.js') }}\" type=\"text/javascript\" ></script>
     </body>
 </html>
-", "partials/base.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/partials/base.html.twig");
+", "partials/base.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/partials/base.html.twig");
     }
 }

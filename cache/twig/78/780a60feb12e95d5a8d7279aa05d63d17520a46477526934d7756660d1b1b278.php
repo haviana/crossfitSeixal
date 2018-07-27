@@ -16,7 +16,7 @@ class __TwigTemplate_2de1466324f5895bc08a1001304f600cd499597620abe2ef9b89303b698
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<section id=\"features\" class=\"section-features text-center\">
+        echo "<section id=\"garantias\" class=\"section-features text-center\">
     <div class=\"container\">
         <div class=\"row\">
             ";
@@ -30,7 +30,7 @@ class __TwigTemplate_2de1466324f5895bc08a1001304f600cd499597620abe2ef9b89303b698
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "features", array()));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
             // line 7
-            echo "                <div class=\"col-md-4\">
+            echo "                <div class=\"col-md-3\">
                     <div class=\"card\">
                         <div class=\"card-block\">
                             ";
@@ -111,13 +111,13 @@ class __TwigTemplate_2de1466324f5895bc08a1001304f600cd499597620abe2ef9b89303b698
 
     public function getSourceContext()
     {
-        return new Twig_Source("<section id=\"features\" class=\"section-features text-center\">
+        return new Twig_Source("<section id=\"garantias\" class=\"section-features text-center\">
     <div class=\"container\">
         <div class=\"row\">
             {{ page.content }}
             <div class=\"features-wrapper\">
                 {% for item in page.header.features %}
-                <div class=\"col-md-4\">
+                <div class=\"col-md-3\">
                     <div class=\"card\">
                         <div class=\"card-block\">
                             {% if item.icon %}
@@ -140,6 +140,6 @@ class __TwigTemplate_2de1466324f5895bc08a1001304f600cd499597620abe2ef9b89303b698
         </div>
     </div>
 </section>
-", "modular/features.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/modular/features.html.twig");
+", "modular/features.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/modular/features.html.twig");
     }
 }

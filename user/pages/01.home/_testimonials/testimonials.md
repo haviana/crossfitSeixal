@@ -1,10 +1,10 @@
 ---
-title: SUBSCRIBE TO STAY IN THE LOOP
+title: Manda o teu testemunho
 hidemenu: true
 testimonials:
   - avatar: face1.jpg
-    quote: Good design at the front-end suggests that everything is in order at the back-end, whether or not that is the case.
-    author: Dmitry Fadeyev
+    quote: Das melhores Box aonde tive a oportunidade de treinar com excelente ambiente.
+    author: Hugo Viana
   - avatar: face2.jpg
     quote: It’s not about knowing all the gimmicks and photo tricks. If you haven’t got the eye, no program will give it to you.
     author: David Carson
@@ -18,4 +18,4 @@ testimonials:
     quote: Every picture owes more to other pictures painted before than it owes to nature.
     author: E.H. Gombrich  
 ---
-### Testimonials {.sr-only}
+### Testemunhos {.sr-only}

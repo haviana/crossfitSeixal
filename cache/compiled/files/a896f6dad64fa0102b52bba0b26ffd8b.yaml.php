@@ -2,18 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/hviana/crossfit/user/config/site.yaml',
-    'modified' => 1531482158,
+    'modified' => 1532696668,
     'data' => [
-        'title' => 'Free Landing Page HTML Template',
+        'title' => 'Crossfit Seixal',
         'author' => [
-            'name' => 'Peter Finla'
+            'name' => 'Hugo Viana'
         ],
         'metadata' => [
-            'description' => 'Land.io is a carefully crafted landing page UI kit and landing page template built on Bootstrap 4, designed by Peter Finlan and developed by Taty Grassini.'
+            'description' => 'Harde, Better, Faster and Stronger'
         ],
         'logo' => [
             'icon' => 'logo',
-            'text' => 'Land.io',
+            'text' => 'Crossfitseixal',
             'url' => NULL
         ],
         'userlinks' => [
@@ -27,8 +27,8 @@ return [
             ]
         ],
         'header' => [
-            'title' => 'Land.io, blissful innovation.',
-            'description' => 'Craft your journey, <em>absolutely free</em>, with <a href="#" class="jumbolink">Admin plugin support.</a>.',
+            'title' => NULL,
+            'description' => NULL,
             'buttons' => [
                 0 => [
                     'text' => 'Some Button',
@@ -51,10 +51,10 @@ return [
         ],
         'socialcount' => [
             'url' => 'http://www.getgrav.org',
-            'facebook_url' => '#',
+            'facebook_url' => 'https://www.facebook.com/crossfitseixal',
             'twitter_url' => 'http://www.twitter.com/getgrav',
-            'linkedin_url' => '#'
+            'instagram_url' => 'https://www.instagram.com/crossfitseixal'
         ],
-        'copyright' => 'Land.io 2015. <br> Designed by Peter Finlan, developed by Taty Grassini, exclusively for Codrops.'
+        'copyright' => 'Crossfitseixal 2018. <br> Designed by Hugo Viana, developed by Hugo Viana, exclusively for Crossfitseixal.'
     ]
 ];

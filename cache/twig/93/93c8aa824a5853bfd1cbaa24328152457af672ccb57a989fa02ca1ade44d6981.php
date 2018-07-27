@@ -16,7 +16,7 @@ class __TwigTemplate_bee41a850fc02bd398fd76d3d336b47c6e563942282170f4f060c664dc1
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<section id=\"subscriptions\" class=\"section-pricing bg-faded text-center\">
+        echo "<section id=\"preços\" class=\"section-pricing bg-faded text-center\">
   <div class=\"container\">
     ";
         // line 3
@@ -33,7 +33,7 @@ class __TwigTemplate_bee41a850fc02bd398fd76d3d336b47c6e563942282170f4f060c664dc1
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "pricing", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
                 // line 7
-                echo "      <div class=\"col-md-4 ";
+                echo "      <div class=\"col-md-3 ";
                 if ( !$this->getAttribute($context["item"], "highlighted", array())) {
                     echo "p-t-md wp";
                 } else {
@@ -186,13 +186,13 @@ class __TwigTemplate_bee41a850fc02bd398fd76d3d336b47c6e563942282170f4f060c664dc1
 
     public function getSourceContext()
     {
-        return new Twig_Source("<section id=\"subscriptions\" class=\"section-pricing bg-faded text-center\">
+        return new Twig_Source("<section id=\"preços\" class=\"section-pricing bg-faded text-center\">
   <div class=\"container\">
     {{ page.content }}
     {% if page.header.pricing %}
     <div class=\"row p-y-lg\">
       {% for item in page.header.pricing %}
-      <div class=\"col-md-4 {% if not item.highlighted %}p-t-md wp{% else %}stacking-top{% endif %}{% if item.additional_css %} {{ item.additional_css }}{% endif %} \">
+      <div class=\"col-md-3 {% if not item.highlighted %}p-t-md wp{% else %}stacking-top{% endif %}{% if item.additional_css %} {{ item.additional_css }}{% endif %} \">
         <div class=\"card pricing-box {% if item.highlighted %}pricing-best p-x-0{% endif %}\">
           {% if item.title %}
           <div class=\"card-header text-uppercase\">
@@ -232,6 +232,6 @@ class __TwigTemplate_bee41a850fc02bd398fd76d3d336b47c6e563942282170f4f060c664dc1
     {% endif %}
   </div>
 </section>
-", "modular/pricing.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/modular/pricing.html.twig");
+", "modular/pricing.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/modular/pricing.html.twig");
     }
 }

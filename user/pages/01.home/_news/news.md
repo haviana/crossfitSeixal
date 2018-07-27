@@ -1,5 +1,5 @@
 ---
-title: News
+title: Novidades
 news:
   - label: Featured
     image: photo1.jpeg

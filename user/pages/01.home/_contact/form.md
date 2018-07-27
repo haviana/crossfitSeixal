@@ -1,4 +1,4 @@
 ---
 hidemenu: true
 ---
-### Contact us {.text-center .m-b-lg}
+### Manda-nos uma mensagem {.text-center .m-b-lg}

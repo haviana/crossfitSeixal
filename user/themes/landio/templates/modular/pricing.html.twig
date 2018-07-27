@@ -1,10 +1,10 @@
-<section id="subscriptions" class="section-pricing bg-faded text-center">
+<section id="preços" class="section-pricing bg-faded text-center">
   <div class="container">
     {{ page.content }}
     {% if page.header.pricing %}
     <div class="row p-y-lg">
       {% for item in page.header.pricing %}
-      <div class="col-md-4 {% if not item.highlighted %}p-t-md wp{% else %}stacking-top{% endif %}{% if item.additional_css %} {{ item.additional_css }}{% endif %} ">
+      <div class="col-md-3 {% if not item.highlighted %}p-t-md wp{% else %}stacking-top{% endif %}{% if item.additional_css %} {{ item.additional_css }}{% endif %} ">
         <div class="card pricing-box {% if item.highlighted %}pricing-best p-x-0{% endif %}">
           {% if item.title %}
           <div class="card-header text-uppercase">

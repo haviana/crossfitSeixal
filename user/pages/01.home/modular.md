@@ -1,5 +1,5 @@
 ---
-title: Landio
+title: CrossfitSeixal
 menu: Home
 form:
     name: my-nice-form
@@ -66,9 +66,10 @@ content:
             - _intro
             - _features
             - _video
-            - _pricing
+            - _precos
             - _testimonials
             - _text
             - _news
             - _contact
+            - _team
 ---

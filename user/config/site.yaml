@@ -1,13 +1,13 @@
-title: Free Landing Page HTML Template  # Name of the site
+title: Crossfit Seixal
 author:
-  name: Peter Finla
+  name: Hugo Viana
 metadata:
-    description: 'Land.io is a carefully crafted landing page UI kit and landing page template built on Bootstrap 4, designed by Peter Finlan and developed by Taty Grassini.'
+    description: 'Harde, Better, Faster and Stronger'
 
 # TopBar
 logo:
   icon: logo
-  text: Land.io
+  text: Crossfitseixal
   url:
 
 # User Panel
@@ -19,8 +19,8 @@ userlinks:
 
 # Header customization
 header:
-  title: Land.io, blissful innovation.
-  description: Craft your journey, <em>absolutely free</em>, with <a href="#" class="jumbolink">Admin plugin support.</a>.
+  title: 
+  description: 
   buttons:
     - text: "Some Button"
       url: "http://tympanus.net/codrops/?p=19439"
@@ -37,9 +37,10 @@ footer:
 #Social Count
 socialcount:
     url: http://www.getgrav.org
-    facebook_url: "#"
+    facebook_url: "https://www.facebook.com/crossfitseixal"
     twitter_url: "http://www.twitter.com/getgrav"
-    linkedin_url: "#"
+    instagram_url: "https://www.instagram.com/crossfitseixal"
+    
 
 #Copyright
-copyright: Land.io 2015. <br> Designed by Peter Finlan, developed by Taty Grassini, exclusively for Codrops.
+copyright: Crossfitseixal 2018. <br> Designed by Hugo Viana, developed by Hugo Viana, exclusively for Crossfitseixal.

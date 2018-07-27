@@ -1,5 +1,5 @@
 ---
-title: Features
+title: Garantias
 features:
   - title: Harder
     icon: pen
