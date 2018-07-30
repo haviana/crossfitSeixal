@@ -70,6 +70,6 @@ content:
             - _testimonials
             - _text
             - _news
-            - _contact
             - _team
+            - _contacto
 ---

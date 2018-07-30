@@ -25,6 +25,12 @@
             $('#linkedin-count').text(linkdindata.count)
         });
     {% endif %}
+    {% if site.socialcount.instagram_url %}
+        // LinkedIn Shares Count
+        $.getJSON( '//www.instagram.com/countserv/count/share?url={{ site.socialcount.url }}&callback=?', function( instagramdata ) {
+            $('#instagram-count').text(instagramata.count)
+        });
+    {% endif %}
     </script>
 
     <ul class="list-inline social-share">
@@ -36,6 +42,9 @@
         {% endif %}
         {% if site.socialcount.linkedin_url %}
             <li><a class="nav-link" href="{{ site.socialcount.linkedin_url }}"><span class="icon-linkedin"></span> <span class="social-text" id="linkedin-count">0</span></a></li>
+        {% endif %}
+        {% if site.socialcount.instagram_url %}
+            <li><a class="nav-link" href="{{ site.socialcount.instagram_url }}"><span class="icon-instagram"></span> <span class="social-text" id="instagram-count">0</span></a></li>
         {% endif %}
     </ul>
   </div>
