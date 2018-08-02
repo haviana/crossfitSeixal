@@ -198,6 +198,6 @@ class __TwigTemplate_ad2b278d643db938e2ceff6c2b5b7426ff04a6e23567f15f794a6f6e1b9
     {% endif %}
 </ul>
 
-", "partials/nav-quick-tray.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
+", "partials/nav-quick-tray.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/nav-quick-tray.html.twig");
     }
 }

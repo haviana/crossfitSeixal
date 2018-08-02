@@ -56,6 +56,6 @@ class __TwigTemplate_75ddeb62599610ee413cdd7e63bded04022d5f8774944530ea019164c5e
         return new Twig_Source("{% set value = (value is null ? (field.evaluate ? evaluate(field.default) : field.default) : value) %}
 
 <input data-grav-field=\"hidden\" data-grav-disabled=\"false\" type=\"hidden\" class=\"input\" name=\"{{ (scope ~ field.name)|fieldName }}\" value=\"{{ value|join(', ') }}\" />
-", "forms/fields/hidden/hidden.html.twig", "/var/www/html/crossfit/user/plugins/form/templates/forms/fields/hidden/hidden.html.twig");
+", "forms/fields/hidden/hidden.html.twig", "/home/hviana/crossfit/user/plugins/form/templates/forms/fields/hidden/hidden.html.twig");
     }
 }

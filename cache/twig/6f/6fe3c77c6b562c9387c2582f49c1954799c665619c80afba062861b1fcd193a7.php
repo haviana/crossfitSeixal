@@ -118,6 +118,6 @@ class __TwigTemplate_a42d47bc6d9767c022982494b712c86dd914c0d0816bc39a435ce164f34
         {% endfor %}
     </div>
 {% endblock %}
-", "modular.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/modular.html.twig");
+", "modular.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/modular.html.twig");
     }
 }

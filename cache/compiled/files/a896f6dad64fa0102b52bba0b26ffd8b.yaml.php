@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/hviana/crossfit/user/config/site.yaml',
-    'modified' => 1532696668,
+    'modified' => 1533130364,
     'data' => [
         'title' => 'Crossfit Seixal',
         'author' => [

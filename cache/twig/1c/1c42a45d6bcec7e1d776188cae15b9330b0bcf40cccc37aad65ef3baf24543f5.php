@@ -75,6 +75,6 @@ class __TwigTemplate_cc82ef16fbd3065be45cf3abedd307151ce24e3a5aa1bfe5b9d161ed027
     </div>
 </div>
 
-", "partials/dashboard-feed.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/dashboard-feed.html.twig");
+", "partials/dashboard-feed.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/dashboard-feed.html.twig");
     }
 }

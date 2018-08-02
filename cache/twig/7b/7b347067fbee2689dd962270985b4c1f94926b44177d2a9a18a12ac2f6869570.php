@@ -552,6 +552,6 @@ class __TwigTemplate_907091a5cedc39f0ac2cd7a8170cfa7e99126a96260dde8037535b52841
     {% endblock body %}
     </html>
 {% endif %}
-", "partials/base-root.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
+", "partials/base-root.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
     }
 }

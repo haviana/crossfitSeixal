@@ -116,6 +116,6 @@ class __TwigTemplate_35b996f49db1170c5c65b35b23cd5f6f6d3c4a3ef531d5cf60d4e3a1809
         </div>
     </div>
 {% endif %}
-", "partials/dashboard-statistics.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/dashboard-statistics.html.twig");
+", "partials/dashboard-statistics.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/dashboard-statistics.html.twig");
     }
 }

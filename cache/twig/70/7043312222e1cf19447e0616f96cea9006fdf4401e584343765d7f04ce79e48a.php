@@ -87,37 +87,59 @@ class __TwigTemplate_e3c9572cf61edf6491fbaef9f0f657c443623d3ee31ffbd1a4a4e22a1e1
     ";
         }
         // line 28
+        echo "    ";
+        if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "instagram_url", array())) {
+            // line 29
+            echo "        // LinkedIn Shares Count
+        \$.getJSON( '//www.instagram.com/countserv/count/share?url=";
+            // line 30
+            echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "url", array());
+            echo "&callback=?', function( instagramdata ) {
+            \$('#instagram-count').text(instagramata.count)
+        });
+    ";
+        }
+        // line 34
         echo "    </script>
 
     <ul class=\"list-inline social-share\">
         ";
-        // line 31
+        // line 37
         if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "twitter_url", array())) {
-            // line 32
+            // line 38
             echo "            <li><a class=\"nav-link\" href=\"";
             echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "twitter_url", array());
             echo "\"><span class=\"icon-twitter\"></span> <span class=\"social-text\" id=\"twitter-count\">0</span></a></li>
         ";
         }
-        // line 34
+        // line 40
         echo "        ";
         if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "facebook_url", array())) {
-            // line 35
+            // line 41
             echo "            <li><a class=\"nav-link\" href=\"";
             echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "facebook_url", array());
             echo "\"><span class=\"icon-facebook\"></span> <span class=\"social-text\" id=\"facebook-count\">0</span></a></li>
         ";
         }
-        // line 37
+        // line 43
         echo "        ";
         if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "linkedin_url", array())) {
-            // line 38
+            // line 44
             echo "            <li><a class=\"nav-link\" href=\"";
             echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "linkedin_url", array());
             echo "\"><span class=\"icon-linkedin\"></span> <span class=\"social-text\" id=\"linkedin-count\">0</span></a></li>
         ";
         }
-        // line 40
+        // line 46
+        echo "        ";
+        if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "instagram_url", array())) {
+            // line 47
+            echo "            <li><a class=\"nav-link\" href=\"";
+            echo $this->getAttribute($this->getAttribute(($context["site"] ?? null), "socialcount", array()), "instagram_url", array());
+            echo "\"><span class=\"icon-instagram\"></span> <span class=\"social-text\" id=\"instagram-count\">0</span></a></li>
+        ";
+        }
+        // line 49
         echo "    </ul>
   </div>
 
@@ -138,7 +160,7 @@ class __TwigTemplate_e3c9572cf61edf6491fbaef9f0f657c443623d3ee31ffbd1a4a4e22a1e1
 
     public function getDebugInfo()
     {
-        return array (  121 => 40,  115 => 38,  112 => 37,  106 => 35,  103 => 34,  97 => 32,  95 => 31,  90 => 28,  83 => 24,  80 => 23,  77 => 22,  70 => 18,  67 => 17,  64 => 16,  57 => 12,  54 => 11,  52 => 10,  48 => 8,  35 => 6,  31 => 5,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  143 => 49,  137 => 47,  134 => 46,  128 => 44,  125 => 43,  119 => 41,  116 => 40,  110 => 38,  108 => 37,  103 => 34,  96 => 30,  93 => 29,  90 => 28,  83 => 24,  80 => 23,  77 => 22,  70 => 18,  67 => 17,  64 => 16,  57 => 12,  54 => 11,  52 => 10,  48 => 8,  35 => 6,  31 => 5,  27 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -178,6 +200,12 @@ class __TwigTemplate_e3c9572cf61edf6491fbaef9f0f657c443623d3ee31ffbd1a4a4e22a1e1
             \$('#linkedin-count').text(linkdindata.count)
         });
     {% endif %}
+    {% if site.socialcount.instagram_url %}
+        // LinkedIn Shares Count
+        \$.getJSON( '//www.instagram.com/countserv/count/share?url={{ site.socialcount.url }}&callback=?', function( instagramdata ) {
+            \$('#instagram-count').text(instagramata.count)
+        });
+    {% endif %}
     </script>
 
     <ul class=\"list-inline social-share\">
@@ -190,11 +218,14 @@ class __TwigTemplate_e3c9572cf61edf6491fbaef9f0f657c443623d3ee31ffbd1a4a4e22a1e1
         {% if site.socialcount.linkedin_url %}
             <li><a class=\"nav-link\" href=\"{{ site.socialcount.linkedin_url }}\"><span class=\"icon-linkedin\"></span> <span class=\"social-text\" id=\"linkedin-count\">0</span></a></li>
         {% endif %}
+        {% if site.socialcount.instagram_url %}
+            <li><a class=\"nav-link\" href=\"{{ site.socialcount.instagram_url }}\"><span class=\"icon-instagram\"></span> <span class=\"social-text\" id=\"instagram-count\">0</span></a></li>
+        {% endif %}
     </ul>
   </div>
 
 
 </header>
-", "partials/header.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/partials/header.html.twig");
+", "partials/header.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/partials/header.html.twig");
     }
 }

@@ -80,6 +80,6 @@ class __TwigTemplate_04e189c078305a0bf0c6dbe634cc0252b586f6836f9122f9d6cb1d419f3
             <a class=\"button\" data-leave-action=\"continue\" href=\"#\"><i class=\"fa fa-fw fa-check\"></i> {{ \"PLUGIN_ADMIN.CONTINUE\"|tu }}</a>
         </div>
     </form>
-</div>", "partials/modal-changes-detected.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
+</div>", "partials/modal-changes-detected.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/modal-changes-detected.html.twig");
     }
 }

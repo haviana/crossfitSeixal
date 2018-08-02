@@ -252,6 +252,6 @@ class __TwigTemplate_4b72147a0c05bf7ae9b68ad4daad10d4565450aa5448b7f8809026cd00d
         </div>
     </div>
 {% endblock %}
-", "forms/fields/editor/editor.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/editor/editor.html.twig");
+", "forms/fields/editor/editor.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/editor/editor.html.twig");
     }
 }

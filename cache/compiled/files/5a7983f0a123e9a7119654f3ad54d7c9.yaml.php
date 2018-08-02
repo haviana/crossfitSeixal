@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/hviana/crossfit/user/plugins/login/languages/en.yaml',
-    'modified' => 1531482162,
+    'modified' => 1533130365,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Username',

@@ -82,6 +82,6 @@ class __TwigTemplate_937134827c7fe0fd4054ea456a9eafe8c0592a132662545e8f0eeb429bc
         return new Twig_Source("{% for meta in page.metadata %}
 <meta {% if meta.name %}name=\"{{ meta.name }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content }}\" {% endif %}/>
 {% endfor %}
-", "partials/metadata.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/partials/metadata.html.twig");
+", "partials/metadata.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/partials/metadata.html.twig");
     }
 }

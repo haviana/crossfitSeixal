@@ -218,6 +218,6 @@ class __TwigTemplate_0c508ca0ab264bd1a8250dad1d69a585e126484547edf7426c705c79328
         </div>
     {% endfor %}
 {% endblock %}
-", "forms/fields/checkboxes/checkboxes.html.twig", "/var/www/html/crossfit/user/plugins/form/templates/forms/fields/checkboxes/checkboxes.html.twig");
+", "forms/fields/checkboxes/checkboxes.html.twig", "/home/hviana/crossfit/user/plugins/form/templates/forms/fields/checkboxes/checkboxes.html.twig");
     }
 }

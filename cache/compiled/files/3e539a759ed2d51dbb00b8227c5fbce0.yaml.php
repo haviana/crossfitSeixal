@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/hviana/crossfit/user/plugins/email/blueprints.yaml',
-    'modified' => 1531482162,
+    'modified' => 1533130365,
     'data' => [
         'name' => 'Email',
         'version' => '2.7.1',

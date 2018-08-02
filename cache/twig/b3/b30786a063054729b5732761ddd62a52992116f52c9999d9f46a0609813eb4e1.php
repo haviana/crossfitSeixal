@@ -161,6 +161,6 @@ class __TwigTemplate_93844426c6432f264d4436dcb40e70b9a2f172609ba8066a78c0f36d7d6
     </script>
 </section>
   {% endfor %}
-", "modular/video.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/modular/video.html.twig");
+", "modular/video.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/modular/video.html.twig");
     }
 }

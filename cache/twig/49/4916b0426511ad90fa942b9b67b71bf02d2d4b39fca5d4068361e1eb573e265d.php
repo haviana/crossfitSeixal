@@ -48,6 +48,6 @@ class __TwigTemplate_c33c8f26fc70e7fc583e6966be7bde47ecbe57d57d8ad7c03e3fa753bed
     public function getSourceContext()
     {
         return new Twig_Source("<img src=\"{{ admin.user.avatarUrl() }}?s=47\" />
-", "partials/nav-user-avatar.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
+", "partials/nav-user-avatar.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/nav-user-avatar.html.twig");
     }
 }

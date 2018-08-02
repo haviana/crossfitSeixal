@@ -206,6 +206,6 @@ class __TwigTemplate_b4a152ec6b59d21a65d2afe64fa80cde0504b368aa8cb7de7b148512454
 
     {{ nonce_field('admin-form', 'admin-nonce')|raw }}
 </form>
-", "partials/blueprints.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
+", "partials/blueprints.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/blueprints.html.twig");
     }
 }

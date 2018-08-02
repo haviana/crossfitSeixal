@@ -67,6 +67,6 @@ class __TwigTemplate_979986a661d22f3edc5acf39c35eaebc436ddc947afb99638e085e67a59
     type=\"password\"
     {{ parent() }}
 {% endblock %}
-", "forms/fields/password/password.html.twig", "/var/www/html/crossfit/user/plugins/form/templates/forms/fields/password/password.html.twig");
+", "forms/fields/password/password.html.twig", "/home/hviana/crossfit/user/plugins/form/templates/forms/fields/password/password.html.twig");
     }
 }

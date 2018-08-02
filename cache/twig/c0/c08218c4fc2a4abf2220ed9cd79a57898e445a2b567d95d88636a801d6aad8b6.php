@@ -87,6 +87,6 @@ class __TwigTemplate_f165b4c107f6b40ccd62680f1efde625c52e11bbae64b68fb805e09a335
     type=\"text\"
     {{ parent() }}
 {% endblock %}
-", "forms/fields/selectize/selectize.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig");
+", "forms/fields/selectize/selectize.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/selectize/selectize.html.twig");
     }
 }

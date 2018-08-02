@@ -117,6 +117,6 @@ class __TwigTemplate_4f554cd6445b3e64f147880f7d8caea1416cc499a5f06c87ae13d54f1a8
 {% else %}
     <div class=\"padding\">You don't have sufficient access to view the dashboard...</div>
 {% endif %}
-", "partials/dashboard-pages.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
+", "partials/dashboard-pages.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/dashboard-pages.html.twig");
     }
 }

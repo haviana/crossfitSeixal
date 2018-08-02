@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/hviana/crossfit/user/plugins/simplesearch/blueprints.yaml',
-    'modified' => 1531482164,
+    'modified' => 1533130365,
     'data' => [
         'name' => 'SimpleSearch',
         'version' => '1.14.1',

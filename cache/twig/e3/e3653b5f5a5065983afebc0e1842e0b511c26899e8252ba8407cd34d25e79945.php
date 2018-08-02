@@ -160,6 +160,6 @@ class __TwigTemplate_f7e86c1b40e27a4086d0f62d4cf2943a23bb4bb9225f09ecc74b540c3ed
     {% set field = field|merge({'wrapper_classes': 'form-input-addon-wrapper'}) %}
 {% endif %}
 {{ parent() }}
-{% endblock %}", "forms/fields/text/text.html.twig", "/var/www/html/crossfit/user/plugins/form/templates/forms/fields/text/text.html.twig");
+{% endblock %}", "forms/fields/text/text.html.twig", "/home/hviana/crossfit/user/plugins/form/templates/forms/fields/text/text.html.twig");
     }
 }

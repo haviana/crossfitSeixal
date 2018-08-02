@@ -45,6 +45,6 @@ class __TwigTemplate_b4893f7944c8a7073336ce4c7a8a7d50963ea1ee1314a9651b3ab8ca01a
         return new Twig_Source("<button class=\"lines-button x\" type=\"button\" role=\"button\" aria-label=\"Toggle Navigation\" data-sidebar-mobile-toggle>
     <span class=\"lines\"></span>
 </button>
-", "partials/nav-toggle.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
+", "partials/nav-toggle.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/nav-toggle.html.twig");
     }
 }

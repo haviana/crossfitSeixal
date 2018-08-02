@@ -84,6 +84,6 @@ class __TwigTemplate_e1bcd97b9c8f9f57f2a70c5351b2c6a24f4aecea6fe567b294aa42239ee
 </div>
 
 
-", "partials/page-legend.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
+", "partials/page-legend.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/page-legend.html.twig");
     }
 }

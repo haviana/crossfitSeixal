@@ -68,6 +68,6 @@ class __TwigTemplate_c81ee7b2ab8c7394327ff6258f73d6b28e81cdd1c2a9ddd4c4bf4c1683f
     {% set status_mapping = {'success':'green', 'error': 'red', 'warning': 'yellow'} %}
     {% set message = inline_errors and form.messages ? \"FORM.VALIDATION_FAIL\"|t : form.message %}
     <div class=\"notices {{ form.status }} {{ status_mapping[form.status] ?: 'green' }}\"><p>{{ message|raw }}</p></div>
-{% endif %}", "partials/form-messages.html.twig", "/var/www/html/crossfit/user/plugins/form/templates/partials/form-messages.html.twig");
+{% endif %}", "partials/form-messages.html.twig", "/home/hviana/crossfit/user/plugins/form/templates/partials/form-messages.html.twig");
     }
 }

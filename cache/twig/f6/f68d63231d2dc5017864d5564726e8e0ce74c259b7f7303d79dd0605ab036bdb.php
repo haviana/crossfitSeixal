@@ -66,6 +66,6 @@ class __TwigTemplate_68c84c2ade027aedf3f2118b1e1e83fd16cd97339cd00a680a157bf0f1f
     {% set codemirrorOptions = codemirrorOptions|merge({'ignore': []}) %}
 {% endif %}
 {# end backward compatibility #}
-", "forms/fields/markdown/markdown.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/markdown/markdown.html.twig");
+", "forms/fields/markdown/markdown.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/markdown/markdown.html.twig");
     }
 }

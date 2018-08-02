@@ -142,6 +142,6 @@ class __TwigTemplate_219575acba1a00265c3b8310bfacf4ea6b0fd47e18ff435c3d899abece8
         <button class=\"button primary\" name=\"task\" value=\"save\">{{ \"PLUGIN_ADMIN.CONTINUE\"|tu }}</button>
     </div>
 </form>
-", "partials/page-move.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/page-move.html.twig");
+", "partials/page-move.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/page-move.html.twig");
     }
 }

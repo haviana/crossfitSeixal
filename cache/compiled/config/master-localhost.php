@@ -1,149 +1,90 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1532987843,
-    'checksum' => 'dd1b5e1c07b4991d4bd475cc36e489de',
+    'timestamp' => 1533130409,
+    'checksum' => '276cd12804a5aad6c3a784637d36a540',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'plugins/login' => [
                 'file' => 'user/config/plugins/login.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1532732206
+                'modified' => 1533130364
             ]
         ],
         'user/plugins' => [
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1532732206
-            ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1532732206
-            ],
-            'plugins/error' => [
-                'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1532732207
-            ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1532732207
+                'modified' => 1533130365
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1532732207
+                'modified' => 1533130365
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1532732207
+                'modified' => 1533130365
+            ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/admin.yaml',
+                'modified' => 1533130364
+            ],
+            'plugins/error' => [
+                'file' => 'user/plugins/error/error.yaml',
+                'modified' => 1533130365
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/form.yaml',
+                'modified' => 1533130365
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1532732207
+                'modified' => 1533130365
             ]
         ]
     ],
     'data' => [
         'plugins' => [
-            'admin' => [
-                'enabled' => true,
-                'route' => '/admin',
-                'cache_enabled' => false,
-                'theme' => 'grav',
-                'logo_text' => '',
-                'body_classes' => '',
-                'content_padding' => true,
-                'twofa_enabled' => true,
-                'sidebar' => [
-                    'activate' => 'tab',
-                    'hover_delay' => 100,
-                    'size' => 'auto'
-                ],
-                'dashboard' => [
-                    'days_of_stats' => 7
-                ],
-                'widgets' => [
-                    'dashboard-maintenance' => true,
-                    'dashboard-statistics' => true,
-                    'dashboard-notifications' => true,
-                    'dashboard-feed' => true,
-                    'dashboard-pages' => true
-                ],
-                'pages' => [
-                    'show_parents' => 'both'
-                ],
-                'session' => [
-                    'timeout' => 1800
-                ],
-                'warnings' => [
-                    'delete_page' => true
-                ],
-                'edit_mode' => 'normal',
-                'frontend_preview_target' => 'inline',
-                'show_github_msg' => true,
-                'pages_list_display_field' => 'title',
-                'google_fonts' => false,
-                'admin_icons' => 'line-awesome',
-                'enable_auto_updates_check' => true,
-                'notifications' => [
-                    'feed' => true,
-                    'dashboard' => true,
-                    'plugins' => true,
-                    'themes' => true
-                ],
-                'popularity' => [
-                    'enabled' => true,
-                    'ignore' => [
-                        0 => '/test*',
-                        1 => '/modular'
-                    ],
-                    'history' => [
-                        'daily' => 30,
-                        'monthly' => 12,
-                        'visitors' => 20
-                    ]
-                ]
-            ],
             'email' => [
                 'enabled' => true,
                 'from' => 'your@email.here',
@@ -165,31 +106,6 @@ return [
                 ],
                 'content_type' => 'text/html',
                 'debug' => false
-            ],
-            'error' => [
-                'enabled' => true,
-                'routes' => [
-                    404 => '/error'
-                ]
-            ],
-            'form' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'inline_css' => true,
-                'refresh_prevention' => false,
-                'client_side_validation' => true,
-                'inline_errors' => false,
-                'files' => [
-                    'multiple' => false,
-                    'limit' => 10,
-                    'destination' => 'self@',
-                    'avoid_overwriting' => false,
-                    'random_name' => false,
-                    'filesize' => 0,
-                    'accept' => [
-                        0 => 'image/*'
-                    ]
-                ]
             ],
             'login' => [
                 'enabled' => true,
@@ -249,6 +165,90 @@ return [
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'admin' => [
+                'enabled' => true,
+                'route' => '/admin',
+                'cache_enabled' => false,
+                'theme' => 'grav',
+                'logo_text' => '',
+                'body_classes' => '',
+                'content_padding' => true,
+                'twofa_enabled' => true,
+                'sidebar' => [
+                    'activate' => 'tab',
+                    'hover_delay' => 100,
+                    'size' => 'auto'
+                ],
+                'dashboard' => [
+                    'days_of_stats' => 7
+                ],
+                'widgets' => [
+                    'dashboard-maintenance' => true,
+                    'dashboard-statistics' => true,
+                    'dashboard-notifications' => true,
+                    'dashboard-feed' => true,
+                    'dashboard-pages' => true
+                ],
+                'pages' => [
+                    'show_parents' => 'both'
+                ],
+                'session' => [
+                    'timeout' => 1800
+                ],
+                'warnings' => [
+                    'delete_page' => true
+                ],
+                'edit_mode' => 'normal',
+                'frontend_preview_target' => 'inline',
+                'show_github_msg' => true,
+                'pages_list_display_field' => 'title',
+                'google_fonts' => false,
+                'admin_icons' => 'line-awesome',
+                'enable_auto_updates_check' => true,
+                'notifications' => [
+                    'feed' => true,
+                    'dashboard' => true,
+                    'plugins' => true,
+                    'themes' => true
+                ],
+                'popularity' => [
+                    'enabled' => true,
+                    'ignore' => [
+                        0 => '/test*',
+                        1 => '/modular'
+                    ],
+                    'history' => [
+                        'daily' => 30,
+                        'monthly' => 12,
+                        'visitors' => 20
+                    ]
+                ]
+            ],
+            'error' => [
+                'enabled' => true,
+                'routes' => [
+                    404 => '/error'
+                ]
+            ],
+            'form' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'inline_css' => true,
+                'refresh_prevention' => false,
+                'client_side_validation' => true,
+                'inline_errors' => false,
+                'files' => [
+                    'multiple' => false,
+                    'limit' => 10,
+                    'destination' => 'self@',
+                    'avoid_overwriting' => false,
+                    'random_name' => false,
+                    'filesize' => 0,
+                    'accept' => [
+                        0 => 'image/*'
+                    ]
+                ]
             ],
             'simplesearch' => [
                 'enabled' => true,

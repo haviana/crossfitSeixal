@@ -37,6 +37,6 @@ class __TwigTemplate_fff920e54d567dfd249ebe0b51600d3bf47a4faed5efee4e2c20c99e8cd
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "empty.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/empty.html.twig");
+        return new Twig_Source("", "empty.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/empty.html.twig");
     }
 }

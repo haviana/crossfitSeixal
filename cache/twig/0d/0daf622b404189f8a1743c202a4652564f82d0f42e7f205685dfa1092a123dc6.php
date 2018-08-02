@@ -81,6 +81,6 @@ class __TwigTemplate_4e830b743d18ca6c061062841c63c5992bd1354752b960823d1dbd64ed5
 
 {% include 'partials/javascripts-extra.html.twig' ignore missing %}
 {% endif %}
-", "partials/javascripts.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/javascripts.html.twig");
+", "partials/javascripts.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/javascripts.html.twig");
     }
 }

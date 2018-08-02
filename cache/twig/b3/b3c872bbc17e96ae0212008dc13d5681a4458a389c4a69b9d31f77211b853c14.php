@@ -144,229 +144,73 @@ class __TwigTemplate_8161e0bbac3865e2c6f024a1a24847628cb888cf4f37984c940a53173c1
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['module'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 40
-        echo "
-                ";
-        // line 41
-        if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "simplesearch", array()), "enabled", array())) {
-            // line 42
-            echo "                <li class=\"nav-item nav-item-toggable hidden-sm-up\">
-                    <form class=\"navbar-form\">
-                        ";
-            // line 44
-            $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "partials/navigation.html.twig", 44)->display($context);
-            // line 45
-            echo "                    </form>
-                </li>
-                <li class=\"navbar-divider hidden-sm-down\"></li>
-                <li class=\"nav-item dropdown nav-dropdown-search hidden-sm-down\">
-                    <a class=\"nav-link dropdown-toggle\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-                        <span class=\"icon-search\"></span>
-                    </a>
-                    <div class=\"dropdown-menu dropdown-menu-right dropdown-menu-search\" aria-labelledby=\"dropdownMenu1\">
-                        <form class=\"navbar-form\">
-                            ";
-            // line 54
-            $context["form2"] = true;
-            // line 55
-            echo "                            ";
-            $this->loadTemplate("partials/simplesearch_searchbox.html.twig", "partials/navigation.html.twig", 55)->display($context);
-            // line 56
-            echo "                        </form>
-                    </div>
-                </li>
-                ";
-        }
-        // line 60
-        echo "                ";
-        if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "login", array()), "enabled", array())) {
-            // line 61
-            echo "                ";
-            if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "username", array())) {
-                // line 62
-                echo "                <li class=\"nav-item dropdown hidden-sm-down textselect-off\">
-                    ";
-                // line 63
-                if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array())) {
-                    // line 64
-                    echo "                        <a class=\"nav-link dropdown-toggle nav-dropdown-user\" id=\"dropdownMenu2\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-                            <img src=\"http://www.gravatar.com/avatar/";
-                    // line 65
-                    echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->md5Filter($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array()));
-                    echo "?s=40\" class=\"img-circle\" alt=\"Gravatar\"/><span class=\"icon-caret-down\"></span>
-                        </a>
-                    ";
-                }
-                // line 68
-                echo "                    <div class=\"dropdown-menu dropdown-menu-right dropdown-menu-user dropdown-menu-animated\" aria-labelledby=\"dropdownMenu2\">
-                        <div class=\"media\">
-                        ";
-                // line 70
-                if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array())) {
-                    // line 71
-                    echo "                        <div class=\"media-left\">
-                            <img src=\"http://www.gravatar.com/avatar/";
-                    // line 72
-                    echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->md5Filter($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array()));
-                    echo "?s=60\" class=\"img-circle\" alt=\"Gravatar\"/>
-                        </div>
-                        ";
-                }
-                // line 75
-                echo "                            ";
-                if (($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "fullname", array()) || $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array()))) {
-                    // line 76
-                    echo "                            <div class=\"media-body media-middle\">
-                                ";
-                    // line 77
-                    if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "fullname", array())) {
-                        // line 78
-                        echo "                                <h5 class=\"media-heading\">";
-                        echo $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "fullname", array());
-                        echo "</h5>
-                                ";
-                    }
-                    // line 80
-                    echo "                                ";
-                    if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array())) {
-                        // line 81
-                        echo "                                <h6>";
-                        echo $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array());
-                        echo "</h6>
-                                ";
-                    }
-                    // line 83
-                    echo "                            </div>
-                            ";
-                }
-                // line 85
-                echo "                        </div>
-                        <a href=\"";
-                // line 86
-                echo ($context["base_url_absolute"] ?? null);
-                echo "/admin/pages\" class=\"dropdown-item text-uppercase\">Manage pages</a>
-                        <a href=\"";
-                // line 87
-                echo ($context["base_url_absolute"] ?? null);
-                echo "/admin/system\" class=\"dropdown-item text-uppercase\">Configuration</a>
-                        <a href=\"";
-                // line 88
-                echo ($context["base_url_absolute"] ?? null);
-                echo "/admin/themes\" class=\"dropdown-item text-uppercase\">Installed themes</a>
-                        ";
-                // line 89
-                $context['_parent'] = $context;
-                $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["site"] ?? null), "userlinks", array()));
-                foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                    // line 90
-                    echo "                            <a href=\"";
-                    echo $this->getAttribute($context["item"], "url", array());
-                    echo "\" class=\"dropdown-item text-uppercase\">";
-                    echo $this->getAttribute($context["item"], "text", array());
-                    echo "</a>
-                        ";
-                }
-                $_parent = $context['_parent'];
-                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
-                $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 92
-                echo "                        <a href=\"";
-                echo $this->getAttribute(($context["uri"] ?? null), "url", array());
-                echo "/task:login.logout\" class=\"dropdown-item text-uppercase text-muted\">Log out</a>
-                        <a href=\"";
-                // line 93
-                echo ($context["base_url_absolute"] ?? null);
-                echo "/admin/users/";
-                echo $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "username", array());
-                echo "\" class=\"btn-circle has-gradient pull-right\">
-                            <span class=\"sr-only\">Edit</span>
-                            <span class=\"icon-edit\"></span>
-                        </a>
-                    </div>
-                </li>
-                ";
-            } else {
-                // line 100
-                echo "                <li class=\"nav-item nav-item-toggable \">
-                    <a class=\"nav-link\" href=\"login\">
-                        ";
-                // line 102
-                echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("PLUGIN_LOGIN.BTN_LOGIN");
-                echo "
-                    </a>
-                </li>
-                ";
-            }
-            // line 106
-            echo "                ";
-        }
-        // line 107
         echo "            </ul>
         </div>
         ";
-        // line 109
+        // line 42
         if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "login", array()), "enabled", array()) && $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "username", array()))) {
-            // line 110
+            // line 43
             echo "        <div id=\"collapsingMobileUser\" class=\"collapse navbar-toggleable-custom dropdown-menu-custom p-x hidden-md-up\" role=\"tabpanel\" aria-labelledby=\"collapsingMobileUser\">
             <div class=\"media m-t\">
                 ";
-            // line 112
+            // line 45
             if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array())) {
-                // line 113
+                // line 46
                 echo "                <div class=\"media-left\">
                     <img src=\"http://www.gravatar.com/avatar/";
-                // line 114
+                // line 47
                 echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->md5Filter($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array()));
                 echo "?s=60\" class=\"img-circle\" alt=\"Gravatar\"/>
                 </div>
                 ";
             }
-            // line 117
+            // line 50
             echo "                ";
             if (($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "fullname", array()) || $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array()))) {
-                // line 118
+                // line 51
                 echo "                <div class=\"media-body media-middle\">
                     ";
-                // line 119
+                // line 52
                 if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "fullname", array())) {
-                    // line 120
+                    // line 53
                     echo "                    <h5 class=\"media-heading\">";
                     echo $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "fullname", array());
                     echo "</h5>
                     ";
                 }
-                // line 122
+                // line 55
                 echo "                    ";
                 if ($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array())) {
-                    // line 123
+                    // line 56
                     echo "                    <h6>";
                     echo $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "email", array());
                     echo "</h6>
                     ";
                 }
-                // line 125
+                // line 58
                 echo "                </div>
                 ";
             }
-            // line 127
+            // line 60
             echo "            </div>
             <a href=\"";
-            // line 128
+            // line 61
             echo ($context["base_url_absolute"] ?? null);
             echo "/admin/pages\" class=\"dropdown-item text-uppercase\">Manage pages</a>
             <a href=\"";
-            // line 129
+            // line 62
             echo ($context["base_url_absolute"] ?? null);
             echo "/admin/system\" class=\"dropdown-item text-uppercase\">Configuration</a>
             <a href=\"";
-            // line 130
+            // line 63
             echo ($context["base_url_absolute"] ?? null);
             echo "/admin/themes\" class=\"dropdown-item text-uppercase\">Installed themes</a>
             ";
-            // line 131
+            // line 64
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["site"] ?? null), "userlinks", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                // line 132
+                // line 65
                 echo "                <a href=\"";
                 echo $this->getAttribute($context["item"], "url", array());
                 echo "\" class=\"dropdown-item text-uppercase\">";
@@ -377,12 +221,12 @@ class __TwigTemplate_8161e0bbac3865e2c6f024a1a24847628cb888cf4f37984c940a53173c1
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 134
+            // line 67
             echo "            <a href=\"";
             echo $this->getAttribute(($context["uri"] ?? null), "url", array());
             echo "/task:login.logout\" class=\"dropdown-item text-uppercase text-muted\">Log out</a>
             <a href=\"";
-            // line 135
+            // line 68
             echo ($context["base_url_absolute"] ?? null);
             echo "/admin/users/";
             echo $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "username", array());
@@ -393,7 +237,7 @@ class __TwigTemplate_8161e0bbac3865e2c6f024a1a24847628cb888cf4f37984c940a53173c1
         </div>
         ";
         }
-        // line 141
+        // line 74
         echo "    </div>
 </nav>
 ";
@@ -437,7 +281,7 @@ class __TwigTemplate_8161e0bbac3865e2c6f024a1a24847628cb888cf4f37984c940a53173c1
 
     public function getDebugInfo()
     {
-        return array (  403 => 16,  397 => 141,  386 => 135,  381 => 134,  370 => 132,  366 => 131,  362 => 130,  358 => 129,  354 => 128,  351 => 127,  347 => 125,  341 => 123,  338 => 122,  332 => 120,  330 => 119,  327 => 118,  324 => 117,  318 => 114,  315 => 113,  313 => 112,  309 => 110,  307 => 109,  303 => 107,  300 => 106,  293 => 102,  289 => 100,  277 => 93,  272 => 92,  261 => 90,  257 => 89,  253 => 88,  249 => 87,  245 => 86,  242 => 85,  238 => 83,  232 => 81,  229 => 80,  223 => 78,  221 => 77,  218 => 76,  215 => 75,  209 => 72,  206 => 71,  204 => 70,  200 => 68,  194 => 65,  191 => 64,  189 => 63,  186 => 62,  183 => 61,  180 => 60,  174 => 56,  171 => 55,  169 => 54,  158 => 45,  156 => 44,  152 => 42,  150 => 41,  147 => 40,  141 => 39,  133 => 36,  128 => 35,  125 => 34,  122 => 33,  117 => 32,  106 => 29,  103 => 28,  98 => 27,  92 => 26,  85 => 22,  81 => 21,  76 => 20,  73 => 19,  70 => 18,  65 => 17,  63 => 16,  61 => 15,  50 => 6,  43 => 5,  37 => 4,  29 => 3,  19 => 1,);
+        return array (  247 => 16,  241 => 74,  230 => 68,  225 => 67,  214 => 65,  210 => 64,  206 => 63,  202 => 62,  198 => 61,  195 => 60,  191 => 58,  185 => 56,  182 => 55,  176 => 53,  174 => 52,  171 => 51,  168 => 50,  162 => 47,  159 => 46,  157 => 45,  153 => 43,  151 => 42,  147 => 40,  141 => 39,  133 => 36,  128 => 35,  125 => 34,  122 => 33,  117 => 32,  106 => 29,  103 => 28,  98 => 27,  92 => 26,  85 => 22,  81 => 21,  76 => 20,  73 => 19,  70 => 18,  65 => 17,  63 => 16,  61 => 15,  50 => 6,  43 => 5,  37 => 4,  29 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -489,73 +333,6 @@ class __TwigTemplate_8161e0bbac3865e2c6f024a1a24847628cb888cf4f37984c940a53173c1
                 </li>
                 {% endif %}
                 {% endfor %}
-
-                {% if config.plugins.simplesearch.enabled %}
-                <li class=\"nav-item nav-item-toggable hidden-sm-up\">
-                    <form class=\"navbar-form\">
-                        {% include 'partials/simplesearch_searchbox.html.twig' %}
-                    </form>
-                </li>
-                <li class=\"navbar-divider hidden-sm-down\"></li>
-                <li class=\"nav-item dropdown nav-dropdown-search hidden-sm-down\">
-                    <a class=\"nav-link dropdown-toggle\" id=\"dropdownMenu1\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-                        <span class=\"icon-search\"></span>
-                    </a>
-                    <div class=\"dropdown-menu dropdown-menu-right dropdown-menu-search\" aria-labelledby=\"dropdownMenu1\">
-                        <form class=\"navbar-form\">
-                            {% set form2 = true %}
-                            {% include 'partials/simplesearch_searchbox.html.twig' %}
-                        </form>
-                    </div>
-                </li>
-                {% endif %}
-                {% if config.plugins.login.enabled %}
-                {% if grav.user.username %}
-                <li class=\"nav-item dropdown hidden-sm-down textselect-off\">
-                    {% if grav.user.email %}
-                        <a class=\"nav-link dropdown-toggle nav-dropdown-user\" id=\"dropdownMenu2\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
-                            <img src=\"http://www.gravatar.com/avatar/{{ grav.user.email|md5 }}?s=40\" class=\"img-circle\" alt=\"Gravatar\"/><span class=\"icon-caret-down\"></span>
-                        </a>
-                    {% endif %}
-                    <div class=\"dropdown-menu dropdown-menu-right dropdown-menu-user dropdown-menu-animated\" aria-labelledby=\"dropdownMenu2\">
-                        <div class=\"media\">
-                        {% if grav.user.email %}
-                        <div class=\"media-left\">
-                            <img src=\"http://www.gravatar.com/avatar/{{ grav.user.email|md5 }}?s=60\" class=\"img-circle\" alt=\"Gravatar\"/>
-                        </div>
-                        {% endif %}
-                            {% if grav.user.fullname or grav.user.email %}
-                            <div class=\"media-body media-middle\">
-                                {% if grav.user.fullname %}
-                                <h5 class=\"media-heading\">{{ grav.user.fullname }}</h5>
-                                {% endif %}
-                                {% if grav.user.email %}
-                                <h6>{{ grav.user.email }}</h6>
-                                {% endif %}
-                            </div>
-                            {% endif %}
-                        </div>
-                        <a href=\"{{ base_url_absolute }}/admin/pages\" class=\"dropdown-item text-uppercase\">Manage pages</a>
-                        <a href=\"{{ base_url_absolute }}/admin/system\" class=\"dropdown-item text-uppercase\">Configuration</a>
-                        <a href=\"{{ base_url_absolute }}/admin/themes\" class=\"dropdown-item text-uppercase\">Installed themes</a>
-                        {% for item in site.userlinks %}
-                            <a href=\"{{ item.url }}\" class=\"dropdown-item text-uppercase\">{{ item.text }}</a>
-                        {% endfor %}
-                        <a href=\"{{ uri.url }}/task:login.logout\" class=\"dropdown-item text-uppercase text-muted\">Log out</a>
-                        <a href=\"{{ base_url_absolute }}/admin/users/{{ grav.user.username }}\" class=\"btn-circle has-gradient pull-right\">
-                            <span class=\"sr-only\">Edit</span>
-                            <span class=\"icon-edit\"></span>
-                        </a>
-                    </div>
-                </li>
-                {% else %}
-                <li class=\"nav-item nav-item-toggable \">
-                    <a class=\"nav-link\" href=\"login\">
-                        {{ 'PLUGIN_LOGIN.BTN_LOGIN'|t }}
-                    </a>
-                </li>
-                {% endif %}
-                {% endif %}
             </ul>
         </div>
         {% if config.plugins.login.enabled and grav.user.username %}
@@ -592,6 +369,6 @@ class __TwigTemplate_8161e0bbac3865e2c6f024a1a24847628cb888cf4f37984c940a53173c1
         {% endif %}
     </div>
 </nav>
-", "partials/navigation.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/partials/navigation.html.twig");
+", "partials/navigation.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/partials/navigation.html.twig");
     }
 }

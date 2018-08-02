@@ -94,6 +94,6 @@ class __TwigTemplate_78dd9291fa1d8f949a9dfc162cf836988a6bc0b78b03236d7a2aa0d3f47
     {% do assets.addCss(theme_url~'/css/nucleus-ie9.css') %}
     {% do assets.addCss(theme_url~'/css/pure-0.5.0/grids-min.css') %}
 {% endif %}
-", "partials/stylesheets.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
+", "partials/stylesheets.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/stylesheets.html.twig");
     }
 }

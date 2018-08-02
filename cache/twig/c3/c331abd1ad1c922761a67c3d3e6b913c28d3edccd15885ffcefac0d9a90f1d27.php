@@ -70,6 +70,6 @@ class __TwigTemplate_7ac95cc077503323534d7566481da32ff0aa8b08a52bec77a4ecd3e5b79
     {% if field.disabled or isDisabledToggleable %}disabled=\"disabled\"{% endif %}
     name=\"{{ (scope ~ field.name)|fieldName }}\"
     value=\"{{ blueprints.name }}\" />
-", "forms/fields/blueprint/blueprint.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
+", "forms/fields/blueprint/blueprint.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/forms/fields/blueprint/blueprint.html.twig");
     }
 }

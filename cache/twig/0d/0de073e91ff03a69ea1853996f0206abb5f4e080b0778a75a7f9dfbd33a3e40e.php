@@ -242,6 +242,6 @@ class __TwigTemplate_0bb7a35faaa3f50ab91680c5e18d28ab3c441a516c77b7dd841d225de7e
     </div>
   </div>
 </section>
-", "modular/news.html.twig", "/var/www/html/crossfit/user/themes/landio/templates/modular/news.html.twig");
+", "modular/news.html.twig", "/home/hviana/crossfit/user/themes/landio/templates/modular/news.html.twig");
     }
 }

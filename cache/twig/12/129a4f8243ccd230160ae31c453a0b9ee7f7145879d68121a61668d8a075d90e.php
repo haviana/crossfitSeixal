@@ -272,6 +272,6 @@ class __TwigTemplate_31285ac7592e60e0a990848b525d61204a6f526d84b2fe76e462788e401
         </div>
 
     </form>
-</div>", "partials/modal-update-packages.html.twig", "/var/www/html/crossfit/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
+</div>", "partials/modal-update-packages.html.twig", "/home/hviana/crossfit/user/plugins/admin/themes/grav/templates/partials/modal-update-packages.html.twig");
     }
 }

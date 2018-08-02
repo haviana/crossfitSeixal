@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/hviana/crossfit/user/plugins/simplesearch/languages.yaml',
-    'modified' => 1531482164,
+    'modified' => 1533130365,
     'data' => [
         'en' => [
             'PLUGIN_SIMPLESEARCH' => [
