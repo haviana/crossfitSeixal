@@ -13,7 +13,7 @@ class __TwigTemplate_2def3e2f734209034d34034428583b1902b0318b588b38191f460978b34
             'head' => array($this, 'block_head'),
             'stylesheets' => array($this, 'block_stylesheets'),
             'javascripts' => array($this, 'block_javascripts'),
-            'header' => array($this, 'block_header'),
+            'navigation' => array($this, 'block_navigation'),
             'body' => array($this, 'block_body'),
             'content' => array($this, 'block_content'),
             'footer' => array($this, 'block_footer'),
@@ -38,7 +38,7 @@ class __TwigTemplate_2def3e2f734209034d34034428583b1902b0318b588b38191f460978b34
 
         ";
         // line 48
-        $this->displayBlock('header', $context, $blocks);
+        $this->displayBlock('navigation', $context, $blocks);
         // line 51
         echo "
         ";
@@ -196,7 +196,7 @@ class __TwigTemplate_2def3e2f734209034d34034428583b1902b0318b588b38191f460978b34
     }
 
     // line 48
-    public function block_header($context, array $blocks = array())
+    public function block_navigation($context, array $blocks = array())
     {
         // line 49
         echo "             ";
@@ -314,7 +314,7 @@ class __TwigTemplate_2def3e2f734209034d34034428583b1902b0318b588b38191f460978b34
     </head>
     <body>
 
-        {% block header %}
+        {% block navigation %}
              {% include 'partials/navigation_aux.html.twig' %}
         {% endblock %}
 

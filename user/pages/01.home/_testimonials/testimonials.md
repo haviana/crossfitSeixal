@@ -15,7 +15,10 @@ testimonials:
     quote: Crossfit seixal significa trabalho árduo, superação  a cada treino. Tudo isto é possivel porque existe um grande coach nesta box, se não sabem ele é o Rúben Amador, apesar do bullying psicológico que faz aos atletas diariamente, mas este não deixa de fazer sentido. Tudo isto acontece num espaço 5* onde aqui a palavra comunidade faz todo o sentido, onde coisas acontecem porque alguém nos bastidores está sempre atento. É com muito gosto que treinamos na melhor box da margem sul.
     author: Nuno Cabaço e Filipa Caria 
   - avatar: face5.jpg
-    quote: Every picture owes more to other pictures painted before than it owes to nature.
-    author: E.H. Gombrich  
+    quote: Estou nesta Box desde do início, Janeiro 2018, e aqui dia após dia sempre encontrei bom companheirismo, boa entre ajuda e um excelente coach. O coach Rúben Amador é um excelente profissional com muito conhecimento à cerca do Crossfit e do desporto em geral. É um coach atento às necessidades de cada um, procurando sempre que o aluno evolua com a sua exigência. Para além disto é uma pessoa super bem disposta, divertida e amigo. Existe sempre um plano de aulas bem gerido, onde as aulas são sempre indicadas para qualquer tipo de atleta, desde do iniciante ao profissional. Neste espaço vão se sentir em casa sempre com o melhor ambiente, equipamento e equipa!  
+    author: Ivo Pinho
+  - avatar: face6.jpg
+    quote: I joined CrossFit Seixal 4 months ago during my time abroad in Portugal. Everyone was so welcoming and this entire CrossFit gym turned out to be a kind of a second family, you want to spend time day by day. Ruben is a very knowledgeable and helpful coach. He guides you through the workouts and turns to you when you need that extra push. I have gained so much from joining CrossFit Seixal, and I am truly grateful for the memories and relationships I have made.
+    author: Max 
 ---
 ### Testemunhos {.sr-only}
