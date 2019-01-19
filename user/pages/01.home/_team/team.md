@@ -2,7 +2,7 @@
 title: Team
 menu: Team
 people:
-    - name: Rubem Amador
+    - name: Ruben Amador
       pic: 1.jpg
       position: Crossfit Level 1 
       description: formações

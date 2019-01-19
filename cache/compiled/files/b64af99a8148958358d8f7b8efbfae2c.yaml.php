@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/system/blueprints/config/site.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547317416,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SITE',
         'form' => [

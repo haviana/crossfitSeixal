@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/user/config/system.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547247966,
     'data' => [
         'home' => [
             'alias' => '/home'

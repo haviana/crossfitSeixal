@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/user/config/site.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547207354,
     'data' => [
         'title' => 'Crossfit Seixal',
         'author' => [
@@ -13,7 +13,7 @@ return [
         ],
         'logo' => [
             'icon' => 'logo',
-            'text' => 'Crossfitseixal',
+            'text' => NULL,
             'url' => NULL
         ],
         'userlinks' => [
@@ -28,14 +28,7 @@ return [
         ],
         'header' => [
             'title' => NULL,
-            'description' => NULL,
-            'buttons' => [
-                0 => [
-                    'text' => 'Some Button',
-                    'url' => 'http://tympanus.net/codrops/?p=19439',
-                    'icon' => 'sketch'
-                ]
-            ]
+            'description' => NULL
         ],
         'footer' => [
             'links' => [

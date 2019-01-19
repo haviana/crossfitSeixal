@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/system/languages/th.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547317416,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 ชื่อเรื่อง: %1$s

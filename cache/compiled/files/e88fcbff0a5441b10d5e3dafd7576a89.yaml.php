@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/user/plugins/form/form.yaml',
-    'modified' => 1532732207,
+    'modified' => 1547317454,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,

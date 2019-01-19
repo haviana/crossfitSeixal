@@ -1,6 +1,11 @@
 ---
-title: Build your beautiful UI, the way you want it, with Land.io
-description: Craft memorable, emotive experiences with our range of beautiful UI elements.
-hidemenu: true
+title: Intro
+crossfit:
+    - pic: logo-crossfit-games-2015.png
+    - pic: logo-crossfit-gymnastics.png
+    - pic: logo-crossfit-journal.png
+    - pic: logo-crossfit-weightlifting.png
+      
 ---
-![iPad mock](mock.png){.img-responsive .wp .wp-3}
+
+

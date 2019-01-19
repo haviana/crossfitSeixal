@@ -66,7 +66,7 @@
     });
   }
 
-  function inputPlaceholders() {
+  function inputPlaceholders() {  
     $('input, textarea').placeholder();
   }
 

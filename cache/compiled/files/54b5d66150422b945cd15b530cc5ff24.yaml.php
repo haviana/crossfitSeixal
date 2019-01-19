@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/user/plugins/form/blueprints.yaml',
-    'modified' => 1532732207,
+    'modified' => 1547317454,
     'data' => [
         'name' => 'Form',
-        'version' => '2.15.1',
+        'version' => '2.16.4',
         'description' => 'Enables the forms handling',
         'icon' => 'check-square',
         'author' => [
@@ -20,7 +20,7 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.4.5'
+                'version' => '>=1.5.1'
             ]
         ],
         'form' => [

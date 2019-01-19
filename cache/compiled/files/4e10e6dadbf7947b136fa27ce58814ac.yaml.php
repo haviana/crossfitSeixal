@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/user/plugins/login/languages/hr.yaml',
-    'modified' => 1532732207,
+    'modified' => 1547317457,
     'data' => [
         'PLUGIN_LOGIN' => [
             'ACCESS_DENIED' => 'Pristup odbijen...',

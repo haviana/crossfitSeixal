@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/system/config/media.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547317416,
     'data' => [
         'types' => [
             'defaults' => [
@@ -73,7 +73,7 @@ return [
                 'mime' => 'video/x-flv'
             ],
             'webm' => [
-                'type' => 'file',
+                'type' => 'video',
                 'thumb' => 'media/thumb-webm.png',
                 'mime' => 'video/webm'
             ],

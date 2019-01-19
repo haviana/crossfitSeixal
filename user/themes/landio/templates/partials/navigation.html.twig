@@ -1,8 +1,11 @@
-<nav class="navbar {% if page.header.navbar_class %}{{ page.header.navbar_class }}{% else %}navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top{% endif %}">
+<nav class="navbar {% if page.header.navbar_class %}{{ page.header.navbar_class }}{% else %}navbar-light bg-inverse bg-inverse-custom navbar-fixed-top{% endif %}">
     <div class="container">
         <a class="navbar-brand" href="{% if not site.logo.url %}{{ base_url_absolute }}{% else %}{{ site.logo.url }}{% endif %}">
-            {% if site.logo.icon %}<span class="icon-{{ site.logo.icon }}"></span>{% endif %}
+        
+        <img src="{{ theme_url }}/img/logo.png" style="width:150px; height:100px;" alt="" >
+            <!--{% if site.logo.icon %}<span class="icon-{{ site.logo.icon }}"></span>{% endif %}
             {% if site.logo.text %}<span class="sr-only">{{ site.logo.text }}</span>{% endif %}
+            -->
         </a>
         <a class="navbar-toggler hidden-md-up pull-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
             &#9776;

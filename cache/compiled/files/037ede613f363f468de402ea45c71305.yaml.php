@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/user/plugins/login/login.yaml',
-    'modified' => 1532732207,
+    'modified' => 1547317457,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -52,6 +52,7 @@ return [
                 'set_user_disabled' => false,
                 'login_after_registration' => false,
                 'send_activation_email' => false,
+                'manually_enable' => false,
                 'send_notification_email' => false,
                 'send_welcome_email' => false
             ]

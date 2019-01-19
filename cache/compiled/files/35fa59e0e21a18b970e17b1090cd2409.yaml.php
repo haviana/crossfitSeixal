@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/user/plugins/admin/languages/cs.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547317469,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Jedná se o beta verzi! V ostrém provozu používejte pouze na vlastní nebezpečí...',

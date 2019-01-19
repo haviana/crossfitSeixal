@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/system/blueprints/user/account.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547317416,
     'data' => [
         'title' => 'Account',
         'form' => [
@@ -100,6 +100,7 @@ return [
                         'twofa_secret' => [
                             'type' => '2fa_secret',
                             'outerclasses' => 'twofa-secret',
+                            'markdown' => true,
                             'label' => 'PLUGIN_ADMIN.2FA_SECRET',
                             'sublabel' => 'PLUGIN_ADMIN.2FA_SECRET_HELP'
                         ]

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Volumes/Dados/workspace/crossfitSeixal/system/blueprints/config/system.yaml',
-    'modified' => 1532732206,
+    'modified' => 1547317416,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -1152,6 +1152,20 @@ return [
                                 'type' => 'bool'
                             ]
                         ],
+                        'session.initialize' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN.SESSION_INITIALIZE',
+                            'help' => 'PLUGIN_ADMIN.SESSION_INITIALIZE_HELP',
+                            'highlight' => 1,
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ],
+                            'default' => true,
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
                         'session.timeout' => [
                             'type' => 'text',
                             'size' => 'small',
@@ -1388,6 +1402,34 @@ return [
                             'placeholder' => 'e.g. http://yoursite.com/yourpath',
                             'label' => 'PLUGIN_ADMIN.CUSTOM_BASE_URL',
                             'help' => 'PLUGIN_ADMIN.CUSTOM_BASE_URL_HELP'
+                        ],
+                        'strict_mode.yaml_compat' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN.STRICT_YAML_COMPAT',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'help' => 'PLUGIN_ADMIN.STRICT_YAML_COMPAT_HELP',
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
+                        ],
+                        'strict_mode.twig_compat' => [
+                            'type' => 'toggle',
+                            'label' => 'PLUGIN_ADMIN.STRICT_TWIG_COMPAT',
+                            'highlight' => 1,
+                            'default' => 1,
+                            'help' => 'PLUGIN_ADMIN.STRICT_TWIG_COMPAT_HELP',
+                            'options' => [
+                                1 => 'PLUGIN_ADMIN.YES',
+                                0 => 'PLUGIN_ADMIN.NO'
+                            ],
+                            'validate' => [
+                                'type' => 'bool'
+                            ]
                         ]
                     ]
                 ]
